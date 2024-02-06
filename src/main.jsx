@@ -5,7 +5,9 @@ import App from './App.jsx'
 import "../src/tail.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>
+  // ,
+  <App />
 )

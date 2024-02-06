@@ -1,0 +1,17 @@
+import React from 'react'
+
+const SendMoneyBar = (index,props) => {
+  return (
+    <div className="h-[5rem] w-[100%] grid grid-cols-10  rounded-3xl ">
+
+        <div className="col-span-1  flex justify-center items-center"><div className="h-[4rem] rounded-full w-[4rem] bg-gray-300 items-center flex justify-center text-black">1</div></div>
+
+        <div className="col-span-2  flex justify-start "><div className="   flex  my-auto text-lg font-semibold">User name</div></div>
+
+        <div className="col-span-7  flex justify-end items-center"><div className=" bg-black items-center flex justify-center h-[3.5rem] w-[8rem] rounded-2xl text-white hover:scale-110 transition-transform ">Send money</div></div>
+
+    </div>
+  )
+}
+
+export default SendMoneyBar

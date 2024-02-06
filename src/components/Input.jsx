@@ -1,15 +1,15 @@
 import React from 'react'
 
-const Input = ({inputValue,setInputValue,label}) => {
+const Input = ({inputValue,setInputValue,label,placeholder,type="text"}) => {
   return (
     <div className="p-3 space-y-2">
-    <p className="text-black font-bold text-sm">{label}</p>
+    <p className="text-gray-500 font-medium text-sm ">{label}</p>
     <input
-       type="text"
+       type={type}
        value={inputValue}
        onChange={(e)=>setInputValue(e.target.value)}
-       placeholder="Enter name"
-       className="rounded-lg h-[2rem] w-[18rem]"
+       placeholder={placeholder}
+       className="rounded-lg h-[2.5rem] w-[18rem] p-3"
      /> 
    </div>
   )
