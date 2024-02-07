@@ -3,6 +3,7 @@ import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
 import SendMoney from "./pages/SendMoney";
+import ModalSend from "./components/ModalSend";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
                 <Route path="/signin" element={<Signin/>} /> 
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/send" element={<SendMoney />} /> 
+                <Route path="/modal" element={<ModalSend />} /> 
               </Routes>
         </Router>
         </div>
