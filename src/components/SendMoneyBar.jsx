@@ -8,8 +8,7 @@ const SendMoneyBar = ({index,props}) => {
 
         <div className="col-span-1  flex justify-center items-center"><div className="h-[4rem] rounded-full w-[4rem] bg-gray-300 items-center flex justify-center text-black">{index}</div></div>
 
-        <div className="col-span-2  flex justify-start "><div className="   flex  my-auto text-lg font-semibold">{props.name}
-        <p>{props.account}</p>
+        <div className="col-span-2  flex justify-start "><div className="   flex  my-auto text-lg font-semibold">{props.name.toUpperCase()}
         </div></div>
   
         <div className="col-span-7  flex justify-end items-center"><div className=" bg-black items-center flex justify-center h-[3.5rem] w-[8rem] rounded-2xl text-white hover:scale-110 transition-transform " onClick={()=>{
