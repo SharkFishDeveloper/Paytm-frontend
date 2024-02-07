@@ -49,7 +49,8 @@ const Dashboard = () => {
           console.log(usersZ)
           const updatedUsers = usersZ.map((user)=>({
             id: user.id,
-            name: user.name
+            name: user.name,
+            account:"accountID"
           }))
           console.log(updatedUsers);
           setUsers(updatedUsers)
